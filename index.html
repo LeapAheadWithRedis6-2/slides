@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="/reveal.js-4.1.2/dist/reset.css">
 		<link rel="stylesheet" href="/reveal.js-4.1.2/dist/reveal.css">
 		<link rel="stylesheet" href="/reveal.js-4.1.2/dist/theme/simple.css">
+		<link rel="icon" type="image/png" href="/images/favicon.ico" sizes="16x16">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="/reveal.js-4.1.2/plugin/highlight/monokai.css">
@@ -71,7 +72,7 @@
 						 data-background-position="top"
 						 data-background-image="/images/redis-icon.svg">
 				</section>
-				<section data-markdown="markdown/3-rational.md"
+				<section data-markdown="markdown/3-hash.md"
 						 data-separator="^]]]"
 						 data-separator-vertical="^---"
 						 data-separator-notes="^Notes:"
@@ -80,7 +81,7 @@
 						 data-background-position="top"
 						 data-background-image="/images/redis-icon.svg">
 				</section>
-				<section data-markdown="markdown/4-impact.md"
+				<section data-markdown="markdown/4-list.md"
 						 data-separator="^]]]"
 						 data-separator-vertical="^---"
 						 data-separator-notes="^Notes:"
@@ -89,7 +90,7 @@
 						 data-background-position="top"
 						 data-background-image="/images/redis-icon.svg">
 				</section>
-				<section data-markdown="markdown/5-new-way.md"
+				<section data-markdown="markdown/5-set.md"
 						 data-separator="^]]]"
 						 data-separator-vertical="^---"
 						 data-separator-notes="^Notes:"
@@ -98,7 +99,34 @@
 						 data-background-position="top"
 						 data-background-image="/images/redis-icon.svg">
 				</section>
-				<section data-markdown="markdown/6-solution.md"
+				<section data-markdown="markdown/6-sorted-set.md"
+						 data-separator="^]]]"
+						 data-separator-vertical="^---"
+						 data-separator-notes="^Notes:"
+						 data-charset="utf-8"
+						 data-background-size="100px"
+						 data-background-position="top"
+						 data-background-image="/images/redis-icon.svg">
+				</section>
+				<section data-markdown="markdown/7-geo.md"
+						 data-separator="^]]]"
+						 data-separator-vertical="^---"
+						 data-separator-notes="^Notes:"
+						 data-charset="utf-8"
+						 data-background-size="100px"
+						 data-background-position="top"
+						 data-background-image="/images/redis-icon.svg">
+				</section>
+				<section data-markdown="markdown/8-stream.md"
+						 data-separator="^]]]"
+						 data-separator-vertical="^---"
+						 data-separator-notes="^Notes:"
+						 data-charset="utf-8"
+						 data-background-size="100px"
+						 data-background-position="top"
+						 data-background-image="/images/redis-icon.svg">
+				</section>
+				<section data-markdown="markdown/9-modules-and-more.md"
 						 data-separator="^]]]"
 						 data-separator-vertical="^---"
 						 data-separator-notes="^Notes:"
@@ -126,11 +154,12 @@
 
 		<script>
 			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
+				controls: false,
+				progress: false,
+				history: false,
 				center: true,
 				hash: false,
+				transition: 'convex',
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 
 			});
