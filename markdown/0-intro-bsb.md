@@ -1,7 +1,7 @@
 ## Brian Sam-Bodden
 
 - Developer Advocate at Redis
-- @bsboddon on (Twitter|GitHub|GitLab|LinkedIn)
+- @bsbodden on (Twitter|GitHub|GitLab|LinkedIn)
 
 ---
 
