@@ -20,7 +20,7 @@ Notes:
 ## Redis OSS 6.2
 ### The Community Edition
 
-```markdown [1-2|3|4|5|6]
+```markdown [1-2|3|4|5]
 6.2 was driven by the community
   Loads of community contributed features
 15 new commands

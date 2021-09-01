@@ -1,0 +1,22 @@
+.rendered_html pre code {
+    font-size: x-large;
+    line-height: normal;
+    height: 100%;
+}
+div.frame {
+    height: 100px;
+    width: 100%;
+    white-space: nowrap;
+    text-align: center; margin: 1em 0;
+}
+span.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+}
+
+img {
+    vertical-align: top;
+    max-height: 100px;
+    max-width: 100px;
+}
