@@ -8,6 +8,14 @@
 - A single List can hold over 4 billion entries.
 
 ---
+
+### List Use Cases
+
+- Most Recently added elements (RSS feeds, posts, updates, news, etc.)
+- Consumer-Producer pattern - Redis (lists and sets accessor can block/wait for date)
+- Anything that resembles a Queue or a Stack!
+
+---
 ### Adding to a List
 
 - You can **add** things by:
