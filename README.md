@@ -2,16 +2,23 @@
 
 ## Getting Started
 
-1.  Clone the repository
+1. Clone the repository
     ```
-    git@github.com:LeapAheadWithRedis/slides-wip.git
+    git@github.com:LeapAheadWithRedis/slides.git
     ```
-2.  CD into the repository
+2. CD into the repository
     ```
-    cd slides-wip
+    cd slides
     ```
-3.  Use docker to serve the content
+3. Install the dependencies for Jupyter Notebook & Rise i.e.
     ```
-    docker run --name leap-ahead-with-redis -v $PWD/:/usr/share/nginx/html:ro -d -p 8002:80 nginx
-    ``` 
-4.  Open browser to http://localhost:8002/
+    pip3 install -r requirements.txt
+    python3 -m bash_kernel.install
+    ```
+4. Run the Jupyter Notebook
+   ```bash
+   jupyter notebook
+   ```
+   > This will open up a browser window to localhost:8888
+   
+6. Open the 'SpringOne2021' notebook by selecting 'SpringOne2021.ipynb' from the list in the browser 
