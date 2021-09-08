@@ -1,6 +1,8 @@
-# slides-wip
+# Slides
 
-## Getting Started
+The latest version of the slides are included as PDF.
+
+## Getting Started with the presentation
 
 1. Clone the repository
     ```
